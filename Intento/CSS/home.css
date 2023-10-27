@@ -1,0 +1,322 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0d0d0e;
+    background-image: url(../imgs/Fondo.png);
+    background-size: cover;
+}
+ 
+.navbar {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+}
+
+.valoicon {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.colRigth {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%; 
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin-right: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.botones h3{
+    margin: 20px,0,30px,0;
+    color: white;
+}
+
+.botones h3:hover {
+    color: rgb(214, 210, 210);
+}
+
+.user {
+    display: flex;
+    height: 40px;
+    width: 40px;
+}
+
+.userbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#valo {
+    margin: 5px;
+}
+
+#riot {
+    margin: 5px;
+}
+
+
+.troquel{
+    margin: 0;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.imgBanner {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px 200px 0px;
+    font-size: 17px;
+    color: #e0cfcf;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.titleDescripcion{
+    font-size: 40px;
+}
+
+.valorantLogo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.juegaGratis{
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+
+
+.gameInfo {
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
+    font-size: 17px;
+    color: #e0cfcf;
+    color: black;
+}
+
+.descripcion2{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 700px;
+}
+
+
+
+
+.quienes-somos{
+    padding: 40px 15px 15px 15px;
+    background-color: #d32f2f;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0,0.8));
+}
+
+.imgHAW {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quienes {
+    height: 550px;
+}
+    
+
+.quienesSomosContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.titleQuienesSomos{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.textQuienesSomos{
+    padding-top: 10px;
+    color: white;
+    text-align: left;
+}
+
+
+
+
+
+
+
+.Noticias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 60px 40px 60px;
+}
+
+.titleNoticias{
+    font-size: 40px;
+    margin: 20px;
+    color: #e0cfcf;
+}
+
+.Proyectos{
+    background-color: #d32f2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 40px 40px;
+}
+
+.noticiasproyectosContent{
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.proyectosContent{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.imagenNoticiasProyectos{
+    width: 95%;
+    border-radius: 5px;
+}
+
+.titleProyectos{
+    color: white;
+    font-size: 40px;
+}
+
+.noticiaproyectoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.separate{
+    padding-top: 20px;
+    color:  #e4d5d5;
+}
+
+.separateProyectos{
+    padding-top: 20px;
+    color: white;
+    text-shadow: #221f1f;
+}
+
+
+.Contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titleContact{
+    font-size: 40px;
+    color: white;
+}
+
+.socialNetworks{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    height: 80px;
+    width: 400px;
+}
+
+.icon{
+    width: 40px;
+    color: white;
+}
+
+.infoContact{
+    text-align: center;
+    width: 800px;
+    color: white;
+}
+.titleDescripcion{
+   margin-bottom: 20px; 
+}
+
+.titleProyectos{
+    margin-top: 80px;
+}

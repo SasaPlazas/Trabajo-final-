@@ -1,0 +1,164 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(valoimg/WhatsApp\ Image\ 2023-09-17\ at\ 3.48.38\ PM.jpeg);
+    
+    background-position: center;
+}
+
+.columna1 {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.columna2 {
+    width: 50%;
+}
+
+
+.navbar {
+display: flex;
+flex-direction: row;
+backdrop-filter: blur(20px);
+box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 10px;
+}
+
+.navbar ::backdrop {
+    opacity: 0.5;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.example {
+    width: 90%;
+    margin: 50px;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: white;
+}
+
+.describehabilidad {
+    width: 600px;
+    margin-left: 10%;
+}
+
+.iconos {
+    background-color: rgb(149, 39, 39);
+    color: white; 
+    padding: 5px 10px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 2px; 
+    cursor: pointer; 
+    display: flex;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.ability {
+    background-color: rgb(149, 39, 39);
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 2px; 
+    cursor: pointer; 
+    display: flex;
+    margin: 5px;
+}
+
+.abilities {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lupa {
+    height: 25px; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    display: flex;
+    margin: 5px;
+}
+
+.filtro {
+    height: 25px;
+}
+
+h3 {
+    color: white;
+}
+
+#rol {
+    color: white;
+}
+
+#biografia {
+    width: 600px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.controlador {
+    height: 25px;
+    padding-top: 5px;
+}
+
+.iniciador {
+    height: 25px;
+    padding-top: 5px;
+}
+
+.duelista {
+    height: 25px;
+    padding-top: 5px;
+}
+
+.sentinela {
+    height: 25px;
+    padding-top: 5px;
+}
+
+.definicion {
+    display: flex;
+    justify-content: center;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.personaje {
+    background-color: rgb(121, 34, 43);
+    width: 180px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 50px;
+}
+
+.nombre {
+    background-color: rgb(226, 43, 43);
+    text-align: center;
+}
+
+.golpes {
+    height: 25px;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Prompt:wght@500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: url(../imgs/imagen2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    padding: 15px;
+    justify-content: left;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #ffffff8e;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 590px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100%;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bolder;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 17px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+
+input {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.input-contenedor {
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 13px;
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: transparent;
+}
+
+.icon {
+    min-width: 20px;
+    justify-content: flex-start;
+    color: #999;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.buttonLogin {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    background: #d32f2f;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d32f2f;
+    transition: background-color 500ms ease 0s;
+}
+
+.button:hover {
+    background: #8b1818;
+}
+
+.createAccount {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #d32f2f;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: #8b1b1b;
+}
+
+.msi {
+    margin: 0px;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.npis {
+    margin: 0px;
+    font-size: 17px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+@media(min-width:768px) {
+    .formulario {
+        width: 500px;
+    }
+}
